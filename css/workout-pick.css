@@ -1,0 +1,42 @@
+@import url(global.css);
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+main{
+    max-width: 40rem;
+    margin: 0 auto;
+    height: 100vh;
+}
+h1{
+    font-size: 3.2rem;
+}
+i{
+    font-size: 2rem;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+ul{
+    height: calc(100vh - 8.2rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+li a{
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 2rem;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    
+}
+li{
+    list-style-type: none;
+}
