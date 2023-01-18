@@ -14,11 +14,29 @@
     <main>
         <h1><span class="color">W</span>orkout</h1>
         <ul>
-            <li><a href="upper-lower.html"><img src="assets/upper-body.png" alt=""></a></li>
-            <li><a href="#"><img src="assets/4-day.png" alt=""></a></li>
+            <li>
+                <a href="upper-lower.html">
+                    <img src="assets/upper-body.png" alt="">
+                    <h2>Upper lower split</h2>
+                </a>
+            </li>
+            <li>
+                <a href="4-day.html">
+                    <img src="assets/4-day.png" alt="">
+                    <h2>4 Day split</h2>
+                </a>
+            </li>
         </ul>
     </main>
 
-    
+    <script>
+        $(function(){
+
+            $(document).on("click", ".accordion", function() {
+                $(this).toggleClass("active")
+            });
+
+        });
+    </script>
 </body>
 </html>

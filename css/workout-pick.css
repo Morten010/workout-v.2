@@ -30,13 +30,24 @@ ul{
 }
 li a{
     width: 100%;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     padding: 2rem;
     display: inline-block;
     color: #fff;
     text-decoration: none;
-    
+    font-size: 2.5rem;
+    text-align: center;
+}
+li a:hover{
+    color: #BBF247;
+    border: #BBF247 2px solid;
 }
 li{
     list-style-type: none;
+}
+.color{
+    color: #BBF247;
+}
+i:hover{
+    color: #BBF247;
 }
